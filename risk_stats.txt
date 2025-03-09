@@ -1,0 +1,6 @@
+Risk stats [found 9 (60.0 %) flows with risks]:
+	Susp Entropy                                 1 [11.1 %]
+	Unidirectional Traffic                       8 [88.9 %]
+
+	NOTE: as one flow can have multiple risks set, the sum of the
+	      last column can exceed the number of flows with risks.

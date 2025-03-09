@@ -1,0 +1,45 @@
+
+===================================================================
+Protocol Hierarchy Statistics
+Filter: 
+
+eth                                      frames:3598 bytes:3370253
+  ip                                     frames:236 bytes:54355
+    tcp                                  frames:104 bytes:24540
+      http                               frames:1 bytes:537
+        xml                              frames:1 bytes:537
+          tcp.segments                   frames:1 bytes:537
+      tls                                frames:26 bytes:10579
+        tcp.segments                     frames:3 bytes:2160
+          tls                            frames:1 bytes:934
+      data                               frames:4 bytes:220
+    udp                                  frames:127 bytes:29571
+      mdns                               frames:11 bytes:3193
+      data                               frames:13 bytes:2416
+      ssdp                               frames:13 bytes:2557
+      nbdgm                              frames:1 bytes:243
+        smb                              frames:1 bytes:243
+          mailslot                       frames:1 bytes:243
+            browser                      frames:1 bytes:243
+      dhcp                               frames:1 bytes:348
+      dns                                frames:66 bytes:9459
+      quic                               frames:22 bytes:11355
+        quic                             frames:3 bytes:2789
+          quic                           frames:1 bytes:1292
+    igmp                                 frames:5 bytes:244
+  ipv6                                   frames:3346 bytes:3315082
+    tcp                                  frames:2575 bytes:2885317
+      tls                                frames:384 bytes:365825
+        tcp.segments                     frames:203 bytes:247119
+          tls                            frames:146 bytes:211812
+      data                               frames:1 bytes:75
+    udp                                  frames:732 bytes:426355
+      mdns                               frames:9 bytes:3007
+      data                               frames:93 bytes:9699
+      quic                               frames:626 bytes:412847
+        quic                             frames:13 bytes:6998
+          quic                           frames:1 bytes:1262
+      dns                                frames:4 bytes:802
+    icmpv6                               frames:39 bytes:3410
+  arp                                    frames:16 bytes:816
+===================================================================

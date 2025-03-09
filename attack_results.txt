@@ -1,0 +1,60 @@
+Potential Command Injection detected at line 30:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22' 
+
+Potential LFI/RFI detected at line 30:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22' 
+
+Potential RCE detected at line 61:
+ b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass' 
+
+Potential RCE detected at line 92:
+ b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass' 
+
+Potential RCE detected at line 123:
+ b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=subprocess.call&password=test_pass' 
+
+Potential Buffer Overflow detected at line 154:
+ b'csrf=3NTdkxXW8lYMwhm6PO2StvGtgmpEmrSr&username=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential SQL Injection detected at line 185:
+ b'csrf=cGOsQONrzfR5MHsVN9yXxm1tCIdO6kLT&username=administrator%27--&password=test_pass' 
+
+Potential XSS detected at line 216:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E' 
+
+Potential Buffer Overflow detected at line 247:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential XSS detected at line 278:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=test_xss' 
+
+Potential XSS detected at line 304:
+ b'\nhiqahsh123@gmail.comc"1\n\n$9a180e7a-b860-4a4d-9441-e841225b1966 (202:username|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential Command Injection detected at line 304:
+ b'\nhiqahsh123@gmail.comc"1\n\n$9a180e7a-b860-4a4d-9441-e841225b1966 (202:username|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential LFI/RFI detected at line 304:
+ b'\nhiqahsh123@gmail.comc"1\n\n$9a180e7a-b860-4a4d-9441-e841225b1966 (202:username|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential Buffer Overflow detected at line 304:
+ b'\nhiqahsh123@gmail.comc"1\n\n$9a180e7a-b860-4a4d-9441-e841225b1966 (202:username|AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+Potential XSS detected at line 335:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=%3Cscript%3Ealert%28%27XSS_TEST%27%29%3C%2Falert%3E&password=test_xss' 
+
+Potential XSS detected at line 366:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=onmouseover%3D%22alert%28%27XSS%27%29&password=onmouseover%3D%22alert%28%27XSS%27%29' 
+
+Potential Command Injection detected at line 397:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22' 
+
+Potential LFI/RFI detected at line 397:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22&password=curl+%22http%3A%2F%2Fexample.com%3Fuser%3Dadmin%3Bls%22' 
+
+Potential Path Traversal detected at line 429:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=..%2F..%2Fetc%2Fpasswd+&password=..%2F..%2Fetc%2Fpasswd+' 
+
+Potential LFI/RFI detected at line 429:
+ b'csrf=3AYPlnHO40l2JUujZGWKmtO89JbLrCYR&username=..%2F..%2Fetc%2Fpasswd+&password=..%2F..%2Fetc%2Fpasswd+' 
+
+Potential Command Injection detected at line 455:
+ b'\nhiqahsh123@gmail.comc"&\n\n$3ea12704-ad7d-4123-8110-55906131b0e2 (202:username|../../etc/passwd%20*&\nusername../../etc/passwd hM7ti8XNxBPUGP7KrGdtvk4zWH4=\n\nfZ:ADqtAZzu3q0IH42snYfynELkIosH8CHdW
+Potential Path Traversal detected at line 455:
+ b'\nhiqahsh123@gmail.comc"&\n\n$3ea12704-ad7d-4123-8110-55906131b0e2 (202:username|../../etc/passwd%20*&\nusername../../etc/passwd hM7ti8XNxBPUGP7KrGdtvk4zWH4=\n\nfZ:ADqtAZzu3q0IH42snYfynELkIosH8CHdW/iG
+Potential LFI/RFI detected at line 455:
+ b'\nhiqahsh123@gmail.comc"&\n\n$3ea12704-ad7d-4123-8110-55906131b0e2 (202:username|../../etc/passwd%20*&\nusername../../etc/passwd hM7ti8XNxBPUGP7KrGdtvk4zWH4=\n\nfZ:ADqtAZzu3q0IH42snYfynELkIosH8CHdW/iGgqcnKuF

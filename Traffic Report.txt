@@ -1,0 +1,29 @@
+Traffic statistics:
+	Ethernet bytes:        20710         (includes ethernet CRC/IFC/trailer)
+	Discarded bytes:       0            
+	IP packets:            30            of 30 packets total
+	IP bytes:              19990         (avg pkt size 666 bytes)
+	Unique flows:          15           
+	TCP Packets:           16           
+	UDP Packets:           14           
+	VLAN Packets:          0            
+	MPLS Packets:          0            
+	PPPoE Packets:         0            
+	Fragmented Packets:    0            
+	Max Packet size:       1238         
+	Packet Len < 64:       12           
+	Packet Len 64-128:     3            
+	Packet Len 128-256:    0            
+	Packet Len 256-1024:   1            
+	Packet Len 1024-1500:  14           
+	Packet Len > 1500:     0            
+	nDPI throughput:       29.07 K pps / 153.11 Mb/sec
+	Analysis begin:        26/Oct/2024 21:28:38
+	Analysis end:          26/Oct/2024 21:29:31
+	Traffic throughput:    0.56 pps / 3.04 Kb/sec
+	Traffic duration:      53.205 sec
+	Guessed flow protos:   8            
+	DPI Packets (TCP):     16            (1.45 pkts/flow)
+	DPI Packets (UDP):     10            (2.50 pkts/flow)
+	Confidence: Match by port 8             (flows)
+	Confidence: DPI        7             (flows)

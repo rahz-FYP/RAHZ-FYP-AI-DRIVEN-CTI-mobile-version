@@ -1,0 +1,4 @@
+Protocol statistics:
+	Safe                 packets: 16            bytes: 1902          flows: 11           
+	Acceptable           packets: 6             bytes: 7752          flows: 2            
+	Uncategorized        packets: 8             bytes: 10336         flows: 2            

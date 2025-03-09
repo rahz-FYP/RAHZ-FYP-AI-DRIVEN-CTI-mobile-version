@@ -1,0 +1,7 @@
+Total number of attacks detected: 23
+Number of SQL Injection attacks detected: 1
+Number of XSS attacks detected: 5
+Number of Command Injection attacks detected: 4
+Number of Path Traversal and LFI/RFI attacks detected: 7
+Number of RCE attacks detected: 3
+Number of Buffer Overflow attacks detected: 3
